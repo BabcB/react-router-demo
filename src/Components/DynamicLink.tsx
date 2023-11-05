@@ -1,11 +1,10 @@
-// import { useNavigate, useLocation } from 'react-router';
 import { useNavigate, useLocation } from 'react-router-dom';
 // import { useParams } from "react-router-dom";
 
 const Post = () => {
-  //   const { category } = useParams();
   const navigate = useNavigate();
   const data = useLocation();
+  //   const { category } = useParams();
 
   console.log(data.state);
   const handleClick = () => {
