@@ -8,7 +8,7 @@ const Post = () => {
 
   console.log(data.state);
   const handleClick = () => {
-    navigate('/home', { state: { home: 'data' } });
+    navigate(-2, { state: { home: 'data' } });
   };
 
   return (
